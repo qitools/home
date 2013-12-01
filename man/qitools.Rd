@@ -2,16 +2,17 @@
 \alias{qitools}
 \title{qitools}
 \description{
-This collection of functions implements selected tools from 
-\url{http://cran.r-project.org/web/packages/qcc} at 
-\url{https://public.opencpu.org}
+This collection of functions implements selected tools from the following R packages at \url{https://public.opencpu.org}
+- \url{http://cran.r-project.org/web/packages/qcc}
+- \url{http://cran.r-project.org/web/packages/SixSigma/}
 }
 
 \author{
-  Robert Badgett \email{rbadgett@kumc.edu}, Scott Chamberlain, Jeroen Ooms
+  Robert Badgett \email{rbadgett@kumc.edu}
 }
 \seealso{
-\code{\link{ishikawa}}.
-\code{\link{make_charts}}.
-\code{\link{pareto}}.
+- \code{\link{charts}}.
+- \code{\link{ishikawa}}.
+- \code{\link{pareto}}.
+- \code{\link{process map}}.
 }

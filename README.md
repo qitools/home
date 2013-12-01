@@ -1,4 +1,4 @@
-qitools
+home
 ====
 
 This application provides interactive interface with example scenarios for common quality tools. The tools are available online at this [link](https://public.opencpu.org/ocpu/github/badgettrg/qitools/www/) at [openCPU](https://public.opencpu.org/). Further information is at sumsearch.org/quality
