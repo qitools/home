@@ -53,25 +53,37 @@ color:#FFFFFF;
 </head>
 
 <body>
-  <div class="container" style="width:1000px;">
+<!-- 
+http://jquery-csv.googlecode.com/git/examples/basic-usage.html
+http://jquery-csv.googlecode.com/git/examples/flot.html -> seems best and most stable without reticulating spines error
+http://code.google.com/p/jquery-csv/wiki/API -> instructions
+-->
+<div class="container" style="width:1000px;">
 
     <div class="page-header" style="color:#0022B4">
-      <h1>QI Tools</h1>
+		<div style="float:left;color:#0022B4">
+			<h1>QI Tools</h1>
+			<h2>Home</h2>
+		</div>
+    <span style="float:right"><a href="mailto:rbadgett@kumc.edu">rbadgett@kumc.edu</a></span>
     </div>
- 
-<ul id="menu">
-<li class="listitem"><a href="../../home/www/" class="menuitem">Home</a></li>
-<li class="listitem"><a href="../../ishikawa/www/" class="menuitem">Ishikawa diagram</a></li>
-<li class="listitem"><a href="../../pareto/www/" class="menuitem">Pareto diagram and bar charts</a></li>
-<li class="listitem"><a href="../../processmap/www/" class="menuitem">Process maps</a></li>
-<li class="listitem"><a href="../../charts/www/" class="menuitem">Charts: Run &amp; Process control</a></li>
-</ul> 
-<div id="">&nbsp;</div>
+	<div style="clear:both"></div>
+
+	<ul id="menu">
+	<li class="listitem"><a href="../../home/www/" class="menuitem">Home</a></li>
+	<li class="listitem"><a href="../../ishikawa/www/" class="menuitem">Ishikawa diagram</a></li>
+	<li class="listitem"><a href="../../pareto/www/" class="menuitem">Pareto &amp; Sorted <br/>bar charts</a></li>
+	<li class="listitem"><a href="../../charts/www/" class="menuitem">Process control &amp; Run charts</a></li>
+	<li class="listitem"><a href="../../processmap/www/" class="menuitem">Process maps</a></li>
+	</ul> 
+	<div id="">&nbsp;</div>
  
     <div class="row">
       <div class="span12">
-
 	  <p>This application provides interactive interface with example scenarios for common <a href="https://en.wikipedia.org/wiki/Seven_Basic_Tools_of_Quality">quality tools</a>.</p>
+
+	  <h3>About</h3>
+
         <ul>
 			<li><a href="https://github.com/qitools">Source code at GitHub</a></li>
 			<li>This application uses the following packages for <a href="http://www.r-project.org/">R</a>:     
